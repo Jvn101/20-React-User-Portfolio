@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/20-React-User-Portfolio/static/css/main.3a4e3c4b.css",
+    "main.js": "/20-React-User-Portfolio/static/js/main.2adcf8eb.js",
+    "static/media/Jasmine-Neal-Resume.pdf": "/20-React-User-Portfolio/static/media/Jasmine-Neal-Resume.e2e5916346c36ef1472b.pdf",
+    "index.html": "/20-React-User-Portfolio/index.html",
+    "main.3a4e3c4b.css.map": "/20-React-User-Portfolio/static/css/main.3a4e3c4b.css.map",
+    "main.2adcf8eb.js.map": "/20-React-User-Portfolio/static/js/main.2adcf8eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a4e3c4b.css",
+    "static/js/main.2adcf8eb.js"
+  ]
+}
