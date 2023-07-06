@@ -7,7 +7,7 @@ const [portfolio] = useState([
   {
     title: "Password Generator",
     image: "/Images/passwordGenerator.png",
-    description: "Website showcasing a random password generator that outputs passwords based on a set of criteria with options selected by the user.",
+    description: "Website showcasing a random password generator that outputs passwords on user input.",
     repository: "https://github.com/Jvn101/03-JavaScript-Password-Generator",
     deployedlink: "https://jvn101.github.io/03-JavaScript-Password-Generator/"
   },
@@ -28,7 +28,7 @@ const [portfolio] = useState([
   {
     title: "Express.js Note Taker",
     image: "Images/noteTaker.png",
-    description: "This application is called Note Taker and can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.",
+    description: "This application is called Note Taker and can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file. The project was created with code from edX Boot Camps.",
     repository: "https://github.com/Jvn101/11-Express.js-Note-Taker",
     deployedlink: "https://notetakerapplication-week11.herokuapp.com/"
   },

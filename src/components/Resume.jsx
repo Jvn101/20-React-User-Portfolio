@@ -3,29 +3,33 @@ import resume from './Resume/Jasmine-Neal-Resume.pdf'
 function Resume() {
     return (
     //<div> I am the Resume page
+    
     <div className="columns">
+      <h1 class="pageHeading">Resume</h1>
       <div className="column">
-        <p className="content is-medium">Resume</p>
-        <hr />
+        
+     <div class="ResumeContent">
         <a className="button is-primary"
-          href={resume}
-          target="_blank" rel="noreferrer">
+          href={resume}>
           <span className="icon">
-            <i className="fas fa-download"></i>
+           
           </span>
           <span>Download My Resume</span>
         </a>
       </div>
-      <div className="column">
-        <p className="content is-medium">Skills</p>
-        <hr />
-        <ul>
-            <li>HTML, CSS, Javascript</li>
-            <li>OpenAPI, JSON</li>
+      <div>
+        <h2>Skills:</h2>
+    
+        <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>JSON</li>
             <li>React</li>
             <li>Markdown</li>
             <li>Git</li>
         </ul>
+      </div>
       </div>
     </div>
 )}
