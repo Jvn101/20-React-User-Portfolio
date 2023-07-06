@@ -7,7 +7,7 @@ const {title, image, description, repository, deployedlink} = portfolio
     <div class="card">
       <h1>{title}</h1>
       <img
-        src={process.env.PUBLIC_URL + image} />
+        src={image} />
       <div>
         <h3>
           <a href={repository}>GitHub</a>{' '}
