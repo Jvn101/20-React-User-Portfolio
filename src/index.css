@@ -1,0 +1,153 @@
+:root {
+  --light: #fff;
+  --dark: #6082a2;
+  
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+    text-align: center;
+    background-color: #f4b9d7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 44%;
+  min-height: 50%; 
+  border: 2px solid rgb(1, 1, 1);
+  box-shadow: 10px 10px 40px 1px rgb(215, 121, 211);
+  color: var(--dark);
+  padding: 0 72px 27px;
+  margin: 0 20px 40px;
+  flex-direction: column;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 219, 219); 
+  flex-wrap: wrap;
+  margin: 2;
+}
+
+.card img {
+  max-width: 100%;
+  align-items: center;
+}
+
+
+/* .navbar {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  background-color: #6082a2;
+  cursor: pointer;
+  
+} */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark);
+  min-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  bottom: 0;
+}
+
+footer a {
+  display: flex;
+  font-size: 20px;
+  margin-left: 50px;
+  color: white;
+}
+
+.headerbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6082a2;
+  padding: 1%;
+  
+}
+
+.headerbar h1 {
+  color: white;
+}
+        
+.headerbar h1:hover {
+  opacity: 0.7;
+  cursor: grab;
+  box-shadow: 10px 10px 40px 1px rgb(215, 121, 211);
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li:hover {
+  opacity: 0.7;
+  cursor: grab;
+  box-shadow: 10px 10px 40px 1px rgb(215, 121, 211);
+}
+/* .navbar li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  background-color: unset;
+  font-weight: bold;
+  text-decoration: none;
+} */
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--light);
+
+}
+
+.Profile {
+	clip-path: circle();
+  width: 250px;
+}
+
+/* dynamic view for screens 992px-769px */
+@media screen and (max-width: 992px) {
+  header, main, body, article, section {
+    flex-direction: column;
+  }
+
+  /* Change the header color */
+  header {
+    background: #772014;
+  }
+}
+
+/* dynamic view for screens 768px or smaller */
+@media screen and (max-width: 768px) {
+  header, main ,body, article, section {
+    flex-direction: column;
+  }
+ 
+  /* Change the header color */
+  header {
+    background: #3593f1;
+  }
+}
+
+
+/*  */
+
