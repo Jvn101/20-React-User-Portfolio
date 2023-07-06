@@ -2,7 +2,7 @@
   "name": "20-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Jvn101.github.io",
+  "homepage": "https://Jvn101.github.io/20-React-User-Portfolio",
   "dependencies": {
     "@formspree/react": "^2.4.4",
     "@testing-library/jest-dom": "^5.16.4",
