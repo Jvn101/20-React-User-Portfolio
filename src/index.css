@@ -35,7 +35,6 @@ code {
   justify-content: center;
   background-color: rgb(240, 219, 219); 
   flex-wrap: wrap;
-  margin: 2%;
 }
 
 .card img {
