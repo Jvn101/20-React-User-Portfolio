@@ -6,21 +6,21 @@ function Portfolio(){
 const [portfolio] = useState([
   {
     title: "Password Generator",
-    image: "/Images/passwordGenerator.png",
+    image: "../Images/passwordGenerator.png",
     description: "Website showcasing a random password generator that outputs passwords on user input.",
     repository: "https://github.com/Jvn101/03-JavaScript-Password-Generator",
     deployedlink: "https://jvn101.github.io/03-JavaScript-Password-Generator/"
   },
   {
     title: "Web APIs Code Quiz",
-    image: "/Images/webAPIQuiz.png",
+    image: "../Images/webAPIQuiz.png",
     description: "Timed quiz using JavaScript that stores high scores.",
     repository: "https://github.com/Jvn101/04-Web-APIs-Code-Quiz",
     deployedlink: "https://jvn101.github.io/04-Web-APIs-Code-Quiz/"
   },
   {
     title: "API Weather Dashboard",
-    image: "/Images/weatherAPI.png",
+    image: "../Images/weatherAPI.png",
     description: "Weather dashboard that features todays weather followed by a five day forecast.",
     repository: "https://github.com/Jvn101/06-Server-Side-APIs-Weather-Dashboard",
     deployedlink: "https://jvn101.github.io/06-Server-Side-APIs-Weather-Dashboard/"
@@ -34,14 +34,14 @@ const [portfolio] = useState([
   },
   {
     title: "MVC Tech Blog",
-    image: "/Images/TheTechBlog.png",
+    image: "../Images/TheTechBlog.png",
     description: "This application is a CMS-style blog site (similar to a Wordpress site), where developers can publish their blog posts and comment on other developers posts as well.",
     repository: "https://github.com/Jvn101/14-MVC-Tech-Blog",
     deployedlink: ""
   },
   {
     title: "NoSQL Social Network",
-    image: "/Images/NoSQLSocialNetwork.png",
+    image: "../Images/NoSQLSocialNetwork.png",
     description: "This application ia an API for a social network web page where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
     repository: "https://github.com/Jvn101/18-NoSQL-Social-Network-API",
     deployedlink: ""
